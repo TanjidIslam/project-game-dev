@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*Manipulating with body*/
+body {
+	/*Give the page a background*/
+	background-image: url("background.jpg");
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+#header{
+	background: url("header.png");
+	width: 900px;
+	height: 150px;
+	margin:0 auto;
+	display: block;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+
+
+/*Design the canvas appearance*/
+canvas {
+	border: 1px solid black;
+	margin: 0 auto;
+	display: none;
+	background: url("canvas_background.jpg");
+}
+
+/*Design the main box in the middle*/
+#main {
+	border: 1px solid black;
+	width: 400px;
+	height: 600px;
+	text-align: center;
+	margin: 0 auto;
+	background-image: url("main_border.png");
+}
+
+/*Designing the button*/
+#button {
+	font-size: 40px;
+	width: 250px;
+	height: 70px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#option_1, #option_2{
+	width: 25px;
+	height: 25px;
+	font-size: 20pt;
+}
+
+
+#head {
+	border: 1px solid black;
+	width: 400px;
+	height: 50px;
+	margin: 0 auto;
+	background-image: url("header_background.jpg");
+	display: none;
+}
+
+#timer {
+	font-size: 21px;
+	float: left;
+	text-align: center;
+	padding-left: 1em;
+}
+
+#score {
+	font-size: 21px;
+	float: right;
+	text-align: center;
+	padding-right: 1em;
+}
+
+#play_pause_button {
+	position:relative;
+    top: 10px;
+    left: 60px;
+    font-size: 20px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+
